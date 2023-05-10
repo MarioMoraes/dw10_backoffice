@@ -29,6 +29,7 @@ class LoginPage extends StatelessWidget {
           ),
           Container(
             constraints: BoxConstraints(
+              maxHeight: context.percentHeigth(.5),
               maxWidth: context.percentHeigth(screenWidth < 1300 ? .7 : .3),
             ),
             decoration: BoxDecoration(
