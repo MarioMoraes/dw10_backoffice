@@ -7,6 +7,7 @@ class StylesApp {
   static StylesApp? _instance;
 
   StylesApp._();
+
   static StylesApp get instance {
     _instance ??= StylesApp._();
     return _instance!;
